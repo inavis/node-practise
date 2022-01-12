@@ -10,7 +10,7 @@ dotenv.config();
 console.log(process.env)
 
 const app = express();
-const PORT=9000;
+const PORT=process.env.PORT;
 
 //offline mongodb
 // const MONGO_URL="mongodb://localhost:27017";
